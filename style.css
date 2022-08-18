@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  header .background-nav {
+    background-color: #7a86b67e;
+  }
+  header .background-nav:hover {
+    color: tomato;
+  }
+  header nav .background-nav {
+    background-color: #495371;
+  }
+  header nav div .imagenes-logo {
+    width: 75px;
+    height: 75px;
+  }
+  header nav div div ul li a {
+    align-items: center;
+  }
+  header nav div div ul li a:hover {
+    color: #F3E9DD;
+  }
+  
+
+  .store{ 
+    
+    width: 100%;
+    height: 100%;
+
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3E9DD;
+    padding: 20px;
+  }
+  .footer img {
+    width: 75px;
+    height: 75px;
+  }
+  .footer ul li {
+    display: flex;
+    list-style: none;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: rgba(111, 110, 110, 0.499);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px 2px black;
+  }
+  .footer div a {
+    text-decoration: none;
+    color: rgb(111, 110, 110);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px 2px black;
+  }
+  .footer div a img {
+    width: 50px;
+    height: 50px;}
